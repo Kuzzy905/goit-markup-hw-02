@@ -42,7 +42,7 @@ body {
     color: var(--button-color);
 }
 
-span {
+.header-span {
     color: var(--headers-color);
 }
 
@@ -64,6 +64,9 @@ span {
     color: var(--hover-color);
 }
 
+.header-address {
+    font-style: normal;
+}
 
 .header-link-contact {
     font-family: 'Roboto', sans-serif;
@@ -87,6 +90,7 @@ span {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--white-color);
 }
 
@@ -98,7 +102,12 @@ span {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--white-color);
+    background-color: var(--button-color);
+}
 
+.hero-button-link:hover,
+.hero-button-link:focus {
+    background-color: var(--hover-color);
 }
 
 
@@ -122,6 +131,9 @@ span {
 .media-header {
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--headers-color);
 }
 
@@ -134,7 +146,22 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--headers-color);
+    background-color: var(--footer-color);
 }
+
+.team-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headers-color);
+}
+
+.team-item {
+    background-color: var(--white-color);
+}
+
 
 .team-member-designation {
     font-size: 16px;
