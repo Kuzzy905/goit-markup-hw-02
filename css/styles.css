@@ -162,7 +162,7 @@ span {
     color: var(--button-color)
 }
 
-span {
+.footer-span {
     color: var(--footer-color);
 }
 
